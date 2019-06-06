@@ -1,0 +1,149 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&2Меню сервера:'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 3
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'menu'
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  #open-action: 'tell: &eВы открыли меню сервера SUSPERCRAFT!'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+spawn:
+  COMMAND: 'spawn'
+  NAME: '&eТочка возрождения'
+  LORE:
+    - 'Телепортироваться на'
+    - 'spawn.'
+  ID: 399
+  POSITION-X: 5
+  POSITION-Y: 2
+  
+kit-start:
+  COMMAND: 'kit start'
+  NAME: '&eСтартовый набор'
+  LORE:
+    - 'Получить каменные инструменты.'
+  ID: 274
+  POSITION-X: 4
+  POSITION-Y: 3
+kit-pro:
+  COMMAND: 'kit pro'
+  NAME: '&ePRO набор'
+  LORE:
+    - 'Получить железные инструменты.'
+  ID: 257
+  POSITION-X: 5
+  POSITION-Y: 3
+kit-vip:
+  COMMAND: 'kit vip'
+  NAME: '&eVIP набор'
+  LORE:
+    - 'Получить алмазные инструменты инструменты.'
+  ID: 278
+  POSITION-X: 6
+  POSITION-Y: 3
+fly:
+  COMMAND: 'fly'
+  NAME: '&eВкл/Выкл полет'
+  LORE:
+    - 'Плетай как птица в небе!'
+  ID: 288
+  POSITION-X: 1
+  POSITION-Y: 1
+survival:
+  COMMAND: 'survival'
+  NAME: '&eРежим выживания'
+  LORE:
+    - 'Зомби съедят твои мозги!'
+  ID: 3
+  POSITION-X: 1
+  POSITION-Y: 2
+creative:
+  COMMAND: 'creative'
+  NAME: '&eРежим творчества'
+  LORE:
+    - 'А может чуть чуть алмазов?'
+  ID: 57
+  POSITION-X: 1
+  POSITION-Y: 3
+speed05:
+  COMMAND: 'speed 0.5'
+  NAME: '&eСкорость x0.5 (Медленная)'
+  LORE:
+    - 'Как черепаха...'
+  ID: 369
+  POSITION-X: 8
+  POSITION-Y: 1
+speed1:
+  COMMAND: 'speed 1'
+  NAME: '&eСкорость x1 (Нормальная)'
+  LORE:
+    - 'Ну как всегда!'
+  ID: 369
+  POSITION-X: 9
+  POSITION-Y: 1
+speed2:
+  COMMAND: 'speed 2'
+  NAME: '&eСкорость x2 (Быстро)'
+  LORE:
+    - 'Быстрее, быстрее!'
+  ID: 369
+  POSITION-X: 9
+  POSITION-Y: 2
+speed5:
+  COMMAND: 'speed 5'
+  NAME: '&eСкорость x5 (Быстрее быстрого)'
+  LORE:
+    - 'Давай, давай,'
+    - 'со скоростью звука!!!'
+  ID: 369
+  POSITION-X: 9
+  POSITION-Y: 3
+speed10:
+  COMMAND: 'speed 10'
+  NAME: '&eСкорость x10 (Скорость света)'
+  LORE:
+    - 'ВНИМАНИЕ! Один шаг и'
+    - 'вы на Юпитере!!!'
+  ID: 369
+  POSITION-X: 8
+  POSITION-Y: 3
+craft:
+  COMMAND: 'workbench'
+  NAME: '&eВерстак'
+  LORE:
+    - 'Скрафтить ничего не желаете, сударь?'
+  ID: 58
+  POSITION-X: 2
+  POSITION-Y: 1
+enderchest:
+  COMMAND: 'enderchest'
+  NAME: '&eСундук эндэра'
+  LORE:
+    - '...'
+  ID: 130
+  POSITION-X: 2
+  POSITION-Y: 3

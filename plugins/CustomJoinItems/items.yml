@@ -1,0 +1,13 @@
+first-item:
+  name: '&l&eМеню сервера'
+  id: 347
+  slot: 1
+  lore:
+    - '&fНажмите &7[ПКМ]&f для открытия.'
+  command: 'menu'
+  cooldown-seconds: 0
+  permission: 'menu.open'
+  give-at-respawn: true
+  allow-drop: false
+  block-movement: false
+  give-on-world-change: true

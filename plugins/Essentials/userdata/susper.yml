@@ -1,0 +1,24 @@
+uuid: 09625602-6155-3455-96df-d3f194f42639
+timestamps:
+  login: 1430063889388
+  logout: 1430066123266
+  lastteleport: 1430063916752
+  kits:
+    start: 1430064218032
+    vip: 1430064945110
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: -163.14040136167725
+  y: 99.09669202390495
+  z: 254.4050702392015
+  yaw: -96.45301
+  pitch: 34.94999
+logoutlocation:
+  world: world
+  x: -471.34985816120127
+  y: 68.0
+  z: -171.08186655331474
+  yaw: -237.00354
+  pitch: 34.2
+afk: false

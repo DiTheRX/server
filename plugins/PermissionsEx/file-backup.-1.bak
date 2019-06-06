@@ -1,0 +1,80 @@
+groups:
+  Player:
+    options:
+      default: true
+    permissions:
+    - modifyworld.*
+    - essentials.afk
+    - essentials.getpos
+    - essentials.hat
+    - essentials.helpop
+    - essentials.home
+    - essentials.kit
+    - essentials.kits.start
+    - essentials.msg
+    - essentials.ping
+    - essentials.sethome
+    - essentials.spawn
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.selection.expand
+    - worldguard.region.claim
+    - worldguard.region.addowner.own.*
+    - worldguard.region.addowner.member.*
+    - worldguard.region.removeowner.member.*
+  Pro:
+    options:
+      default: false
+    permissions:
+    - modifyworld.*
+    - essentials.afk
+    - essentials.getpos
+    - essentials.hat
+    - essentials.helpop
+    - essentials.home
+    - essentials.kit
+    - essentials.kits.start
+    - essentials.kits.pro
+    - essentials.msg
+    - essentials.ping
+    - essentials.sethome
+    - essentials.spawn
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.selection.expand
+    - worldguard.region.claim
+    - worldguard.region.addowner.own.*
+    - worldguard.region.addowner.member.*
+    - worldguard.region.removeowner.member.*
+    - essentials.speed
+    - essentials.speed.walk
+  VIP:
+    options:
+      default: false
+    permissions:
+    - modifyworld.*
+    - essentials.afk
+    - essentials.getpos
+    - essentials.hat
+    - essentials.helpop
+    - essentials.home
+    - essentials.kit
+    - essentials.kits.start
+    - essentials.kits.pro
+    - essentials.kits.vip
+    - essentials.fly
+    - essentials.exp
+    - essentials.exp.set
+    - essentials.msg
+    - essentials.ping
+    - essentials.sethome
+    - essentials.spawn
+    - worldedit.selection.pos
+    - worldedit.selection.hpos
+    - worldedit.selection.expand
+    - worldguard.region.claim
+    - worldguard.region.addowner.own.*
+    - worldguard.region.addowner.member.*
+    - worldguard.region.removeowner.member.*
+    - essentials.speed
+    - essentials.speed.walk
